@@ -8,6 +8,7 @@ android {
         targetSdkVersion 23
         ndk {
             abiFilters 'armeabi-v7a'
+            abiFilters "x86"
         }
     }
     packagingOptions {
@@ -29,7 +30,7 @@ android {
     }
     externalNativeBuild {
         ndkBuild {
-            path 'src/main/jni/android.mk'
+            path 'src/main/jni/Android.mk'
         }
     }
     productFlavors {

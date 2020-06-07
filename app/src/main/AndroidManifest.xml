@@ -224,7 +224,7 @@
 
         <provider
             android:name="android.content.FileProvider"
-            android:authorities="com.androlua"
+            android:authorities="com.luaplus"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
